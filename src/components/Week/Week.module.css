@@ -1,0 +1,36 @@
+.week {
+    background-color: rgba(255, 255, 255, 0.469);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 40px;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.week:last-child {
+    margin-bottom: 0;
+}
+
+.week img {
+    width: 70px;
+}
+
+.week h4 {
+    font-size: 20px;
+}
+
+.week button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 100%;
+    font-size: 30px;
+    transition: 200ms;
+}
+.week button:hover {
+    font-size: 50px;
+}

@@ -1,0 +1,96 @@
+.main {
+    color: white;
+    text-align: center;
+    max-width: 1000px;
+}
+
+.weather {
+    display: flex;
+    flex-direction: row;
+}
+
+.leftBox {
+    background-color: rgba(255, 255, 255, 0.299);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-right: 15px;
+}
+
+.leftBox img {
+    width: 80%;
+}
+
+.rightBox {
+    background-color: rgba(255, 255, 255, 0.299);
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 15px;
+}
+
+.rightBox img {
+    width: 30%;
+}
+
+.rightBox h1 {
+    margin-top: 0px;
+    font-size: 40px;
+}
+
+.rightBox h2 {
+    font-size: 30px;
+}
+
+.rightBox hr {
+    background-color: white;
+    border: 1px solid white;
+    max-width: 70%;
+}
+
+.weatherDetails {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    padding: 10px 30px 10px 30px;
+}
+
+.weatherDetails h3 {
+    font-size: 20px;
+}
+
+.weatherDetails p {
+    font-size: 15px;
+}
+
+.viewWeek {
+    background-color: rgba(255, 255, 255, 0.469);
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 40px;
+    max-width: 250px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 15px 0 15px 0;
+    transition: 300ms;
+    mix-blend-mode: screen;
+}
+
+.viewWeek:hover {
+    background-color: rgba(255, 255, 255, 0.208);
+    border: 1px solid white;
+}
+
+@media screen and (max-width: 768px) {
+    .weather {
+        flex-direction: column;
+    }
+    .leftBox, .rightBox {
+        margin: 0;
+    }
+
+    .leftBox {
+        margin-bottom: 15px;
+    }
+}

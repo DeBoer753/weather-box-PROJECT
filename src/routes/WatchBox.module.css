@@ -1,0 +1,77 @@
+.main {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 10px;
+    max-width: 800px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.introBox {
+    background-color: rgba(255, 255, 255, 0.299);
+    color: white;
+    display: flex;
+    text-align: center;
+    border-radius: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 50px 70px 50px 70px;
+    font-size: 3em;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.469);   
+    border-radius: 20px;
+}
+
+.card img {
+    width: 50px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.card h1 {
+    margin-top: 5px;
+}
+
+.card h2 {
+    font-size: 20px;
+}
+
+.card hr {
+    background-color: white;
+    border: 1px solid white;
+    width: 130px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.card h4 {
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin-top: 0px;
+}
+
+.card button {
+    background-color: rgba(255, 255, 255, 0.248);
+    color: white;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    width: 100px;
+    margin-bottom: 15px;
+    padding: 6px;
+    font-size: 20px;
+    transition: 200ms;
+}
+.card button:hover {
+    background-color: rgba(255, 255, 255, 0.092);
+    border: 1px solid white;
+}

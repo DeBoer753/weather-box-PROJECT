@@ -1,0 +1,57 @@
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+.App {
+    background: linear-gradient(90deg, #ec464eb5 0%, #ff690bd4 100%); 
+    min-height: 100vh;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.App nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 800px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.iconBox {
+    display: flex;
+    justify-content: space-between;
+    width: 90px;
+}
+
+.homeIcon, .watchBoxIcon {
+    background-color: rgba(255, 255, 255, 0.469);
+    border-radius: 5px;
+    padding: 10px;
+    height: 20px;
+}
+.homeIcon img {
+    width: 20px;
+}
+.homeIcon img:hover {
+    animation: iconShake .5s cubic-bezier(.36,.07,.19,.97) both;
+}
+
+.watchBoxIcon img {
+    width: 20px;
+}
+.watchBoxIcon img:hover {
+    animation: iconShake .5s cubic-bezier(.36,.07,.19,.97) both;
+}
+
+@keyframes iconShake {
+    0% { transform: rotate(0); }
+    15% { transform: rotate(5deg); }
+    30% { transform: rotate(-5deg); }
+    45% { transform: rotate(4deg); }
+    60% { transform: rotate(-4deg); }
+    75% { transform: rotate(2deg); }
+    85% { transform: rotate(-2deg); }
+    92% { transform: rotate(1deg); }
+    100% { transform: rotate(0); }
+}
