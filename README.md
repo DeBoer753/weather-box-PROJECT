@@ -1,6 +1,6 @@
 # Weather Box
 
-![img!](readMeImg.png)
+![img!](./readMeImg.png)
 
 ## Overview:
 
@@ -14,6 +14,6 @@ Weather Box is an interactive weather application where users can input a name o
 - React
 
 ## Tip(s):
-viewer may need to have own api key to access full site. 
+
 <br>
-(insert img of how to do so)
+
