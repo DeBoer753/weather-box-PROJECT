@@ -1,6 +1,6 @@
 # Weather Box
 
-![img!](./readMeImg.png)
+![img!](./READMEimg.png)
 
 ## Overview:
 
