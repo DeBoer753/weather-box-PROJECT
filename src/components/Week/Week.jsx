@@ -61,7 +61,7 @@ export default function Week() {
             return unpackedSnowy
         }
     }
-
+    
     return (
 
         <div className={styles.main}>
