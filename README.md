@@ -17,6 +17,6 @@ that represent activities of what is suited best for the selected forecast.
 - HTML
 - CSS
 - JavaScript
-- React
+- React.js
 
 
